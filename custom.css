@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Merriweather&display=swap');
+.space-bt {
+    margin-left: 5px!important;
+}
+
+.space-bt-left {
+    padding-right: 5px;
+}
+
+.max-height {
+    height: 50%;
+}
+
+.carousel .carousel-item {
+    height: 660px;
+}
+
+.head-about {
+    font-size: 25px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.about {
+    font-family: 'Merriweather', serif;
+    font-size: 14px;
+    color: gray;
+}
+
+.color-overide {
+    background-color: #198754;
+    border: #9E1B32;
+}
+
+.text {
+    font-size: 28px;
+}
+
+.color-overide:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.bg-one {
+    background-color: #D8D8D8;
+    width: 500px;
+}
+
+.col-6 img {
+    width: 105%;
+    height: 230px;
+}
+
+.card {
+    border: transparent;
+}
+
+.card-img-top:hover {
+    opacity: 0.5;
+}
+
+.site-footer {
+    height: 500px;
+}
+
+.blog-footer {
+    padding: 2.5rem 0;
+    color: #727272;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: .05rem solid #e5e5e5;
+}
+
+.main-bg {
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    background-size: cover;
+}
+
+.left-sidebar {
+    padding-top: 50px;
+}
+
+.dowm {
+    padding-top: 50px;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width:992px) {
+    .carousel .carousel-item {
+        height: 260px;
+    }
+    .head-about {
+        font-size: 18px;
+        font-family: 'Hind Siliguri', sans-serif;
+        font-weight: 600;
+        letter-spacing: 6px;
+    }
+    .about {
+        font-family: 'Merriweather', serif;
+        font-size: 12px;
+        color: gray;
+    }
+}
