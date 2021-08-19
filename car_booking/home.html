@@ -1,0 +1,388 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Ferrari Booking</title>
+    <link rel="icon" href="https://logodownload.org/wp-content/uploads/2017/05/ferrari-logo-0.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.myDiv {
+  border: 15px outset black;
+  background-color: grey;    
+  text-align: center;
+}
+.myDig {
+  border: 10px outset grey;
+  background-color:yellow ;    
+  text-align: center;
+}
+.myPor {
+  border: 10px outset grey;
+  background-color: black;    
+  text-align: center;
+}
+.mySF {
+  border: 10px outset gold;
+  background-color: black;    
+  text-align: center;
+}
+.myRom {
+  border: 10px outset white;
+  background-color: black;    
+  text-align: center;
+}
+.myStra {
+  border: 10px outset red;
+  background-color: black;    
+  text-align: center;
+}
+.mySpi {
+  border: 10px outset yellow;
+  background-color:black ;    
+  text-align: center;
+}
+.myLas {
+  border: 5px outset black;
+  background-color: lightgrey;    
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="https://logodownload.org/wp-content/uploads/2017/05/ferrari-logo-0.png" height="80" width="120" alt="" srcset=""></a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
+                    </ul>
+                    <form class="d-flex justify-content-evenly">
+                        <button class="btn btn-primary space-bt color-overide" type="button" data-bs-toggle="modal" data-bs-target="#reg"><i class="fa fa-plus space-bt-left"></i>LOGIN</button>
+                        <button class="btn btn-primary space-bt color-overide" type="button" data-bs-toggle="modal" data-bs-target="#log"><i class="fa fa-user space-bt-left"></i>REGISTER</button>
+                        <button class="btn btn-primary space-bt color-overide" type="button" data-bs-toggle="modal" data-bs-target="#contact"><i class="fa fa-user space-bt-left"></i>CONTACT US</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="offer">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner max-height">
+                <div class="carousel-item active">
+                    <img src="https://pickywallpapers.com/img/2018/5/ferrari-car-logo-desktop-wallpaper-115-122-hd-wallpapers.jpg" class="d-block w-100" alt="...">
+
+                </div>
+                <div class="carousel-item">
+                    <img src="https://i.redd.it/e317otpyzfh21.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://www.hdcarwallpapers.com/walls/2017_ferrari_f12tdf_4k-HD.jpg" class="d-block w-100" alt="...">
+                </div> 
+               
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+        </div>
+    </section>
+
+    <section class="reg">
+        <div class="modal fade" id="reg" tabindex="-1" aria-labelledby="reg" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="reg">Registration</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Full Name</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control">
+
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Retype-Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="log">
+        <div class="modal fade" id="log" tabindex="-1" aria-labelledby="log" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="log">Registration</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="log" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="log">Contact</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Name</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Subject</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Message</label>
+                                <textarea name="" id="" cols="20" rows="5" class="form-control"></textarea>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                        <button type="button" class="btn btn-primary">Sumbit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<div class="myDiv">
+    <section class="main">
+        <div class="container mt-5 mt-md-2 mt-sm-2 mt-lg-5">
+            <h3 class="d-flex justify-content-center head-about">FERRARI:Feel the power</h3>
+            <h5 class="d-flex justify-content-center about">All the power in the world is now in yours hands</h5>
+            <div class="container mt-3">
+
+                <div class="row ">
+                    <div class="col d-flex justify-content-center mt-1">
+                        <div class="img-max">
+                            <img src="https://www.supercars.net/blog/wp-content/uploads/2017/01/ferrari-458-italia-spyder-wallpaper-hd-wallpaper.jpg" height="300" width="400" alt="" srcset="">
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mt-2">
+                        <div class="col d-flex justify-content-center">
+                            <div class="img-max">
+                                <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/20-ferrari-laferrari-aperta-print-itzkirb-photography.jpg" height="300" width="400" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mt-2">
+                        <div class="col d-flex justify-content-center">
+                            <div class="img-max">
+                                <img src="https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2020/08/03135242/Sebastian-Vettel-PA.jpg" height="300" width="400" alt="" srcset="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+    <section class="main">
+        <div class="container-fluid mt-5 mt-md-2 mt-sm-2 mt-lg-5">
+            <h3 class="d-flex justify-content-center head-about">OUR MACHINES</h3>
+
+            <div class="container-fluid mt-5">
+
+                <div class="row">
+                    <div class="col d-flex justify-content-center mt-1">
+<div class="myDig">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://di-uploads-pod16.dealerinspire.com/continentalferrari/uploads/2021/01/SP1-Large.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">Monza SP1</h5>
+                                <p class="card-text d-flex justify-content-center">Timeless Style</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Book now</li>
+                                </a>
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Compare</li>
+                                </a>
+                            </ul>
+</div>
+                        </div>
+                    </div>
+
+                    <div class="col d-flex justify-content-center mt-2">
+<div class="mySpi">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://di-uploads-pod16.dealerinspire.com/continentalferrari/uploads/2021/01/F8Spider-Large.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">F8 SPIDER</h5>
+                                <p class="card-text d-flex justify-content-center">The next gen V8 engine</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Book now</li>
+                                </a>
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Compare</li>
+                                </a>
+                            </ul>
+</div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mt-2">
+<div class="myPor">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://di-uploads-pod16.dealerinspire.com/continentalferrari/uploads/2021/01/PortM-Large.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">Portofino M</h5>
+                                <p class="card-text d-flex justify-content-center">A voyage of rediscovery</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Book now</li>
+                                </a>
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Compare</li>
+                                </a>
+                            </ul>
+</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col d-flex justify-content-center mt-1">
+<div class="mySF">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://di-uploads-pod16.dealerinspire.com/continentalferrari/uploads/2021/01/sf90Spider-Large.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">SF90 Spider</h5>
+                                <p class="card-text d-flex justify-content-center">Beyond imagination</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Book now</li>
+                                </a>
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Compare</li>
+                                </a>
+                            </ul>
+</div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mt-2">
+<div class="myRom">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://di-uploads-pod16.dealerinspire.com/continentalferrari/uploads/2021/01/Roma-Large.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">Roma</h5>
+                                <p class="card-text d-flex justify-content-center">La nuova Dolce Vita</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Book now</li>
+                                </a>
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Compare</li>
+                                </a>
+                            </ul>
+</div>
+                        </div>
+                    </div>
+                    <div class="col d-flex justify-content-center mt-2">
+<div class="myStra">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://di-uploads-pod16.dealerinspire.com/continentalferrari/uploads/2021/01/SF90-Large.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title d-flex justify-content-center">SF90 Stradale</h5>
+                                <p class="card-text d-flex justify-content-center">The new series-production supercar</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Book now</li>
+                                </a>
+                                <a class="d-flex justify-content-center" href="">
+                                    <li class="list-group-item">Compare</li>
+                                </a>
+                            </ul>
+</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="blog-footer mt-5">
+<div class="myLas">
+        <p>By <a href="poornaprakash.tech">MUTHU AKILESH K</a>
+            <p>
+                <a href="#">Back to top</a>
+            </p>
+
+    </footer>
+</div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
